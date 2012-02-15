@@ -1,23 +1,24 @@
 SAFE_RM
 
 BACKGROUND:
-    Do you think the standard 'rm' command in the Linux/Unix/MacOS is so dangerous?
-    If your answer is yes, then this substitution is right for you.
+    Do you think the standard 'rm' command in the Linux/Unix/MacOS 
+    is so dangerous? If your answer is yes, then this substitution
+    is right for you.
 
 PURPOSE:
     This tool will subsitute the systemic rm command, and it will not
     delete your file really. It makes a directory named '.Recycle Bin'
-    in /tmp, when you delete file/directory, the script only copy 
-    these file to '.Recycle Bin', arranged with directories seperated
+    in /tmp, when you delete files/directories, the script only copy 
+    these files to '.Recycle Bin', arranged with directories seperated
     by date.
-    My english is not so good, so, if you can`t understand properly,
-    just use. Take it easy, this tool is very safe.
+    My english is not very good, so, if you can`t understand properly,
+    just try. Take it easy, this tool is very safe.
 
 USAGE:
     Please add the alias statement to the .bashrc file in user`s home directory.
     alias rm='~/bin/s_rm.sh'
 
 AUTHOR:
-    Justin Li (justinli.ljt@gmail.com)
+    jizhouli (justinli.ljt@gmail.com)
 
 
