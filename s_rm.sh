@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# author:	justinli.ljt@gmail.com
+# author:	jizhouli (justinli.ljt@gmail.com)
 # update:	2011-04-23
 # purpose:	a security version command instead of dangerous "rm"
 
